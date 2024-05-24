@@ -5,10 +5,10 @@ export default function Header() {
     const[toggle,setToggle]=useState(false);
   return (
     <>
-    <div className='bg-[#2699fb] p-5 text-2xl font-bold items-center'>
+    <div className='bg-[#2699fb] p-6 text-2xl font-bold items-center'>
         <div className='flex justify-between'>
         <h1>Central Attendence System</h1>
-        <ul className='hidden md:flex text-white gap-1'> 
+        <ul className='hidden md:flex text-white gap-2 font-normal'> 
         {/* //less than md hidden  */}
             <li>About Us</li>
             <li>Our Packages</li>
