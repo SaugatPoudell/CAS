@@ -2,7 +2,7 @@ import React from 'react'
 
 export const AboutUs = () => {
   return (
-    <div className='bg-[blue] w-[full] h-[200px] flex items-center justify-center m-10'>
+    <div className='bg-[blue] w-[full] h-[300px] flex items-center justify-center m-10 rounded-md'>
         <div className='m-10 mt-0 mb-0 '>
             <h2 className='text-white text-3xl '> About Central Attendence System</h2>
             <p className='text-white'>Central Attence System has been one of the most used attendence system in the campuses throughout the 
