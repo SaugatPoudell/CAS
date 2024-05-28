@@ -10,10 +10,12 @@ export default function Header() {
         <h1>Central Attendence System</h1>
         <ul className='hidden md:flex text-white gap-2 font-normal'> 
         {/* //less than md hidden  */}
-            <li>About Us</li>
-            <li>Our Packages</li>
-            <li>Careers</li>
-            <li>Contact</li>
+            <li className='gap-'>
+              <a href='/about'>About US</a>
+              <a href='/carrer'>Carrer</a>
+              <a href='/package'>Packages</a>
+            </li>
+           
         </ul>
         {
             !toggle?
